@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/07/28 17:01:59.000.728,=C:\JRD soluções\Testes\Servidor\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2019/07/28 17:02:01.000.973,=C:\JRD soluções\Testes\Servidor\WebModuleUnit1.pas</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.613,=C:\JRD soluções\Testes\Servidor\js\serverfunctionexecutor.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.647,=C:\JRD soluções\Testes\Servidor\js\json2.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.354,=C:\JRD soluções\Testes\Servidor\ServerConst1.pas</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.724,=C:\JRD soluções\Testes\Servidor\js\serverfunctions.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.814,=C:\JRD soluções\Testes\Servidor\js\json2-min.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.959,=C:\JRD soluções\Testes\Servidor\js\callbackframework-min.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.978,=C:\JRD soluções\Testes\Servidor\js\connection.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.749,=C:\JRD soluções\Testes\Servidor\js\base64-min.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.549,=C:\JRD soluções\Testes\Servidor\js\base64.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.891,=C:\JRD soluções\Testes\Servidor\js\serverfunctionexecutor-min.js</Transaction>
+    <Transaction>2019/07/28 17:02:03.000.678,=C:\JRD soluções\Testes\Servidor\js\callbackframework.js</Transaction>
+    <Transaction>2019/07/28 17:02:04.000.114,=C:\JRD soluções\Testes\Servidor\templates\reversestring.html</Transaction>
+    <Transaction>2019/07/28 17:02:04.000.155,=C:\JRD soluções\Testes\Servidor\templates\serverfunctioninvoker.html</Transaction>
+    <Transaction>2019/07/28 17:02:04.000.182,=C:\JRD soluções\Testes\Servidor\images\collapse.png</Transaction>
+    <Transaction>2019/07/28 17:02:04.000.037,=C:\JRD soluções\Testes\Servidor\js\serverfunctioninvoker.js</Transaction>
+    <Transaction>2019/07/28 17:02:04.000.059,=C:\JRD soluções\Testes\Servidor\css\main.css</Transaction>
+    <Transaction>2019/07/28 17:02:04.000.085,=C:\JRD soluções\Testes\Servidor\css\serverfunctioninvoker.css</Transaction>
+    <Transaction>2019/07/28 17:02:04.000.209,=C:\JRD soluções\Testes\Servidor\images\expand.png</Transaction>
+    <Transaction>2019/07/28 17:02:28.000.913,C:\JRD soluções\Testes\Servidor\Model\ServerConst1.pas=C:\JRD soluções\Testes\Servidor\ServerConst1.pas</Transaction>
+    <Transaction>2019/07/28 17:03:05.000.583,C:\JRD soluções\Testes\Servidor\Metodos\ServerMain.pas=C:\JRD soluções\Testes\Servidor\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2019/07/28 17:04:32.000.911,=C:\JRD soluções\Testes\Servidor\Model\Contatos2.model.interfaces.pas</Transaction>
+    <Transaction>2019/07/28 17:04:32.000.856,=C:\JRD soluções\Testes\Servidor\Model\Contatos2.model.contatos.pas</Transaction>
+    <Transaction>2019/07/28 17:04:32.000.968,=C:\JRD soluções\Testes\Servidor\Model\Contatos2.model.query.pas</Transaction>
+    <Transaction>2019/07/28 17:04:32.000.800,=C:\JRD soluções\Testes\Servidor\Model\Contatos2.model.ConstSQL.pas</Transaction>
+    <Transaction>2019/07/28 17:04:32.000.744,=C:\JRD soluções\Testes\Servidor\Model\Contatos2.model.conexao.pas</Transaction>
+    <Transaction>2019/07/28 17:04:32.000.690,=C:\JRD soluções\Testes\Servidor\Model\Contatos2.entidade.contatos.pas</Transaction>
+    <Transaction>2019/07/28 17:05:39.000.089,=C:\JRD soluções\Testes\Servidor\Model\ULGTDataSetHelper.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,38 @@
+unit Contatos2.model.conexao;
+
+interface
+
+uses
+  Contatos2.model.interfaces, FireDAC.Comp.Client;
+
+Type
+  Tconexao = Class(TInterfacedObject, iconexao)
+    Private
+     class var fconexao : tfdconnection;
+    Public
+     Constructor Create;
+     Destructor Destroy; Override;
+     Class function New: iconexao;
+  End;
+
+implementation
+
+{ Tconexao }
+
+constructor Tconexao.Create;
+begin
+
+end;
+
+destructor Tconexao.Destroy;
+begin
+
+  inherited;
+end;
+
+class function Tconexao.New: iconexao;
+begin
+
+end;
+
+end.

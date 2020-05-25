@@ -1,0 +1,13 @@
+unit Contatos2.model.ConstSQL;
+
+interface
+
+Const
+  SQL_Lista = 'SELECT * FROM Contatos';
+  SQL_Busca = 'SELECT * FROM Contatos WHERE Nome LIKE :pNome';
+  SQL_Apaga = 'DELETE FROM Contatos WHERE id = :pId';
+
+
+implementation
+
+end.

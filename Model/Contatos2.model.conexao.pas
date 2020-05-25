@@ -1,0 +1,56 @@
+unit Contatos2.model.conexao;
+
+interface
+
+uses
+  contatos2.model.interfaces, FireDAC.Comp.Client, FireDAC.Stan.def, FireDAC.Phys.MSAccDef, FireDAC.Phys,
+  FireDAC.Phys.ODBCBase, FireDAC.Phys.MSAcc, FireDAC.dapt, FireDAC.UI.Intf,
+  FireDAC.FMXUI.Wait, FireDAC.Comp.UI, FireDAC.Stan.Async;
+
+Type
+  TConexao = Class(TInterfacedObject, iconexao)
+    Private
+     fConexao : tfdconnection;
+     class var FCon     : iconexao;
+    Public
+     Constructor Create;
+     Destructor Destroy; Override;
+     Class function New: iconexao;
+     Function conexao: tfdconnection;
+  End;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TConexao }
+
+function TConexao.conexao: tfdconnection;
+begin
+    Result:= Fconexao;
+end;
+
+constructor TConexao.Create;
+begin
+    Fconexao := TFDConnection.Create(nil);
+    fconexao.DriverName:= 'MSAcc';
+    Fconexao.Params.Database:= ExtractFilePath(paramstr(0))+'bd\contatos.mdb';
+    fconexao.LoginPrompt:= false;
+    fConexao.Open;
+end;
+
+destructor TConexao.Destroy;
+begin
+  FreeAndNil(Fconexao);
+  inherited;
+end;
+
+class function TConexao.New: iconexao;
+begin
+   if not Assigned(fcon) then
+    fcon := self.Create;
+   Result := Fcon;
+end;
+
+end.

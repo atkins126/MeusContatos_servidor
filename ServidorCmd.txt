@@ -1,0 +1,2 @@
+http://localhost:8080/desk/v1/main/contatos (Get, Put, Post, Delete)
+http://localhost:8080/desk/v1/main/contato/id
